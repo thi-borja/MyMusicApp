@@ -1,5 +1,6 @@
 package br.com.thborja.MyMusicApp.teste;
 
+import br.com.thborja.MyMusicApp.modelos.AvaliaFavoritos;
 import br.com.thborja.MyMusicApp.modelos.Musica;
 import br.com.thborja.MyMusicApp.modelos.Podcast;
 
@@ -44,6 +45,12 @@ public class Teste {
         musica2.imprime();
         podcast1.imprime();
         podcast2.imprime();
+
+        AvaliaFavoritos avaliaFavoritos = new AvaliaFavoritos();
+        avaliaFavoritos.inclui(musica1);
+        avaliaFavoritos.inclui(musica2);
+        avaliaFavoritos.inclui(podcast1);
+        avaliaFavoritos.inclui(podcast2);
 
     }
 }
