@@ -5,10 +5,9 @@ public class Audio {
     private int duracaoEmSegundos;
     private int totalDeReproducoes;
     private int curtidas;
-    private double nota;
 
     public double getNota() {
-        nota = (double)this.getCurtidas()/this.getTotalDeReproducoes()*10;
+        double nota = (double) this.getCurtidas() / this.getTotalDeReproducoes() * 10;
         return nota;
     }
 

@@ -1,9 +1,8 @@
 package br.com.thborja.MyMusicApp.modelos;
 
 public class Podcast extends Audio{
-    private String host;
-    private String descricao;
-    private int fator;
+    private final String host;
+    private final String descricao;
 
     public Podcast(String titulo, int duracaoEmSegundos, String host, String descricao) {
         setTitulo(titulo);

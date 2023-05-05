@@ -1,8 +1,6 @@
 package br.com.thborja.MyMusicApp.modelos;
 
 public class AvaliaFavoritos {
-    private Audio audio;
-
     public void inclui(Audio audio){
         if(audio.getNota()>8){
             System.out.println("Bom gosto!");

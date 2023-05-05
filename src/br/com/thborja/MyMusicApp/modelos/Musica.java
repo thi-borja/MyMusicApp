@@ -1,10 +1,9 @@
 package br.com.thborja.MyMusicApp.modelos;
 
 public class Musica extends Audio{
-    private String album;
-    private String artista;
-    private String genero;
-    private int fator;
+    private final String album;
+    private final String artista;
+    private final String genero;
 
     public Musica(String titulo, int duracaoEmSegundos,String album, String artista, String genero) {
         setTitulo(titulo);
